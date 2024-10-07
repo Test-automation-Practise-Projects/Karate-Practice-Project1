@@ -1,17 +1,16 @@
-# Karate Beginner Tutorials
+# API Operations with Reqres and JSONPlaceholder
 
-This repository is my personal project aimed at helping me learn the basic concepts of Karate API testing. It includes samples for GET, POST, PUT, and DELETE API testing.
+This repository contains a collection of API operations (GET, POST, PUT, DELETE) using the following APIs:
+
+- [Reqres.in](https://reqres.in): A hosted REST API for testing and prototyping.
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com): A free fake online REST API for testing and prototyping.
+
+This project uses **Cucumber** with Gherkin syntax to define scenarios that test CRUD operations on the above APIs. The primary objective is to validate that the API returns the expected results for various requests.
 
 
-## Project Overview
-
-In this repository, I am compiling resources from the [Karate Beginner Tutorial Playlist](https://www.youtube.com/playlist?list=PLhW3qG5bs-L-y5Q1zDXJAur1JNZVFB534). The playlist contains a series of instructional videos that cover fundamental Karate concepts, techniques, and practical examples.
-
-### Purpose
-
-The goal is to:
-
-- **Learn**: Understand the basic principles and functionalities of Karate.
-- **Practice**: Apply the knowledge gained from the tutorials in real-world testing scenarios.
-- **Document**: Keep track of my learning journey and any notes or examples I find helpful.
+API Endpoints
+1. GET User: https://reqres.in/api/users/{id} and https://jsonplaceholder.typicode.com/users/{id}
+2. POST User: https://reqres.in/api/users and https://jsonplaceholder.typicode.com/posts
+3. PUT User: https://reqres.in/api/users/{id} and https://jsonplaceholder.typicode.com/posts/{id}
+4. DELETE User: https://reqres.in/api/users/{id} and https://jsonplaceholder.typicode.com/posts/{id}
 
